@@ -24,10 +24,10 @@ from scipy.spatial.distance import cdist, pdist
 
 # #### Instellen van pad voor data toegang
 
-# In[2]:
+# In[8]:
 
 
-get_ipython().run_line_magic('cd', 'C:\\Users\\mark_\\source\\repos\\Erasmus\\Bedbezetting')
+get_ipython().run_line_magic('cd', 'C:\\Users\\mark_\\source\\repos\\Erasmus\\Bedbezetting\\2')
     
 pad = get_ipython().run_line_magic('pwd', '')
 
@@ -160,7 +160,7 @@ def plaatjes(data,onehot_encoding,algoritme):
 # In[9]:
 
 
-elbow(onehot_klinisch_spoed,'Klinisch spoed')
+elbow(onehot_klinisch_spoed,'Klinisch spoed aangepast')
 
 
 # In[38]:
